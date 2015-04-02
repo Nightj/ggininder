@@ -1,0 +1,28 @@
+//資工一甲 40318137 洪振傑 
+//ex0604.c
+#include <stdio.h>
+#include <stdlib.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char *argv[]) {
+	int i,n ;
+	
+	printf("輸入一個數字排列數值：");
+	 scanf("%d",&n);
+	 	for (i=1;i<=n;i++){
+	 		
+		  if((i%5)==0){
+		   
+		   printf("%3d\n",i);  
+		  } 
+		  
+		    else{
+		  
+		       printf("%3d,",i); 
+		    } 
+	
+		  
+		 } 
+	return 0;
+}
